@@ -38,6 +38,19 @@
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
+.scroll-down {
+    bottom: 80px;
+    display: block;
+    left: 50%;
+    height: 80px;
+    margin-left: -23px;
+    position: absolute;
+    width: 80px;
+    z-index: 200;
+    color:white;
+    font-size: 40pt;
+}
+    
 #intro {
     position: relative;
     background-color: lightgray;
@@ -57,8 +70,8 @@
 #article {
     position: absolute;
     top: 700px;
-    font-family: Roboto Slab;
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
     color: black;
 }
 
@@ -75,7 +88,7 @@
 
 #foot {
     background-color: #4D606E;
-    height: 200px;
+    height: 400px;
 }
 
 /* Relationship */
@@ -119,7 +132,7 @@
     background-color: #D3D4D8;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-family: Roboto Slab;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     color: black;
 }
@@ -137,6 +150,7 @@
 #top {
     background-color: #4D606E;
     height: 575px;
+    
 }
 
 #middle {
@@ -150,7 +164,7 @@
 }
 
 #four {
-    height: 675px;
+    height: 575px;
     background-color: #4D606E;
 }
     
@@ -162,7 +176,7 @@
 
 .top-space {
     padding-top:60px;
-    
+    font-size: 16px;    
 }
 
 .sculpture {
