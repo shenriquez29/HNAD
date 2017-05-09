@@ -5,13 +5,16 @@
     <title>HNAD</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans" rel="stylesheet">
     <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
+    
 <!-- Image -->
+    
 <div id="intro">
+    
     <!-- NAVBAR -->
     <nav class="navbar">
         <div class="container-fluid">
@@ -29,7 +32,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="relationships.html">RELATIONSHIPS</a></li>
                     <li><a href="religions.html">RELIGIONS</a></li>
-                    <li><a href="sources.html">SOURCES</a></li>
+                    <li><a href="sources.html">RESOURCES</a></li>
                 </ul>
             </div>
         </div>
@@ -37,50 +40,80 @@
 </div>
 
 <!-- Title -->
+
 <div id="title">
-    <h1 id="title-text">
-The Great Debate between Science and Religion
-        </h1>
-     <a class="scroll-down" href="#article">
-            <span class="glyphicon glyphicon-chevron-down"></span>
-        </a>
-</div>
+    <video id="my-video" class="video" muted loop>
+        <source src="video/Up.mp4" type="video/mp4">
+        <source src="video/Up.ogv" type="video/ogg">
+        <source src="video/Up.webm" type="video/webm">
+    </video>
     
-  
+    <script>
+        (function() {
+        var video = document.getElementById("my-video");
+        video.addEventListener( "canplay", function() {
+        video.play();
+        });
+        })();
+    </script>
+    
+    <h1 id="title-text">SCIENCE | RELIGION</h1> 
+    <h5 id="subtitle"> RECONCILING BETWEEN FAITH AND FACTS </h5>
+    <a class="scroll-down" href="#article"><span class="glyphicon glyphicon-chevron-down"></span></a>
+    
+</div>
 
 <!-- Text -->
+    
 <div id="article" class="container">
-
     <div class="row">
-        <div class="col-sm-4 col-sm-offset-2">
-            <h2>How did it originate?</h2>
-            <p>Charles Darwin formally introduced the concept of natural selection into the world after years of
-                observing variations in animal species in his book, Origin of Species. Prior to this publication, many
-                other naturalists had discussed the presence of gradual changes in species and the vast variations
-                across animals, but Darwin's book was a catalyst for conversations on evolution thereafter. Darwin
-                defined natural selection as a natural law in which an organism is able live and reproduce if it has
-                acquired traits or adaptations enabling them to survive in their environment. This sparked controversy
-                in Anglican England as church leaders criticized the theory for making the creationist story seems
-                inaccurate. This ultimately changed perspectives on the way in which living organisms were created and
-                the purpose of human life. Where did religious doctrine stand if the world was run by natural laws? Was
-                the almighty creator the designer of these laws? Questions like these arose and continue to be discussed
-                amongst scientists and theologians, creating interesting conversations on how religion and science can
-                be viewed.
+        <div class="col-sm-6 col-sm-offset-2">
+            <h2 style="font-family:'Open Sans', sans-serif">ORIGINS</h2>
+            <p>Charles Darwin introduced the term, natural selection in his book <em>Origin of Species</em> after years of observing variations in animal species. Prior to this publication, many other naturalists discussed the presence of gradual changes in species and the vast variations across animals, but Darwin's book was a catalyst for conversations on evolution thereafter. Darwin defined natural selection as a natural law in which an organism is able live and reproduce if it has acquired traits or adaptations enabling them to survive in their environment. The extension of his book, <em>Descent of Man</em> expanded on human origins, tracing their ancestors to apes. This sparked controversy in Anglican England as church leaders criticized the theory for making the creation story in the Bible seem inaccurate. This ultimately changed perspectives on the way in which living organisms were created and the purpose of human life. Where did religious doctrine stand if the world was run by natural laws? Was a  divine creator the designer of these laws? Questions like these arose and continue to be discussed amongst scientists and theologians, creating interesting conversations on how religion and science can be viewed.
             </p>
+            
         </div>
+        
+        <!--
         <div class="col-sm-4">
-                <img class="size" src="img/darwin.jpg">
-            </div>
+             <img class="size" src="img/darwin.jpg">
+        </div> -->
+
 
     </div>
-
 </div>
 
 <div id="bottom">
-
-</div>
+    <div class="col-sm-6 col-sm-offset-2">
+            <p>NAVIGATE THROUGH THIS WEBSITE TO LEARN MORE ABOUT WAYS IN WHICH SCIENCE AND RELIGION INTERACT GLOBALLY.</p>
+            <p >SCIENCE VS. RELIGION</p>
+            <p>SCIENCE & RELIGION</p>
+            <p>SCIENCE OR RELIGION</p>
+            <p>SCIENCE > RELIGION</p>
+            <p>SCIENCE < RELIGION</p>
+            <p>Religion and science are often thought to be at conflict. However, there are many lenses to this debate. Click on <a href="relationships.html">RELATIONSHIPS</a> to understand Ian Barbour's 4 Relationships Model and <a href="religions.html">RELIGIONS</a> to learn more about how other religions besides Christianity view science and the theory of evolution.
+            </p>
+    </div>
+    
+</div> 
 
 <div id="foot">
+    
+    <a class="scroll-up" href="#title-text">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+     </a>
+     <ul class= "foot-bar">
+     <a class="link-1" href="index.html">HNAD</a>
+     <a class="link-1" href="relationships.html">RELATIONSHIPS</a>
+     <a class="link-1" href="religions.html">RELIGIONS</a>
+     <a class="link-1" href="resources.html">RESOURCES</a>
+     </ul>
+
+     <h5 class= "copyright">COPYRIGHT @2017 DESIGN BY STEPHANIE HENRIQUEZ </h3>
+
+
+    
+    
 </div>
 
 </body>
@@ -89,5 +122,6 @@ The Great Debate between Science and Religion
 
 
 </html>
+
 
 
