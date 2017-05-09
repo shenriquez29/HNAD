@@ -335,13 +335,11 @@ super light gray: #F5F5F5
     font-family:'Open Sans', sans-serif;
 }
 
-
 .panel-top {
     padding-left: 200px;
     padding-right: 200px;
     color: white;
     font-family:'Open Sans', sans-serif;
-
 }
 
 .panel-group {
@@ -358,10 +356,6 @@ super light gray: #F5F5F5
 #collapse-1 {
     color: black;
     background-color: #F5F5F5;
-}
-
-#v1 {
-    padding-left:200px;
 }
 
 #three {
