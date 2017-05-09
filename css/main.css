@@ -1,7 +1,18 @@
 /* Homepage */
 
+/*
+turquoise: #3FBAC2
+light gray: #D3D4D8
+navy blue: #4D606E
+super light gray: #F5F5F5
+*/
+
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+
 .navbar-brand {
-    /*text-align: center;*/
     color: white;
     font-size: 15px;
     font-weight: bold;
@@ -31,17 +42,8 @@
 /*Video*/
 
 .video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 1;  
-    min-width: 100%;
-    min-height: 100%;
-    width: 1250px;
-    height: 1280px; 
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); 
+    position: relative;
+    width: 100%;
 }
 
 
@@ -51,14 +53,12 @@
     font-size: 60px;
     position: absolute;
     top:250px; 
-    /*height:25px;*/
     padding-left: 200px;
     padding-right: 200px;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
     display: block;
     size: cover;
-    z-index: 200;
-    
+    z-index: 200;   
 }
 
 #subtitle {
@@ -70,7 +70,6 @@
     display: block;
     size: cover;
     z-index: 200;
-
 }
 
 .scroll-down {
@@ -86,14 +85,9 @@
     font-size: 40pt;
 }
 
-
-#intro {
-    height: 775px;
-}
-
 #article {
-    top: 700px;
-    height: 675px;
+    padding-bottom: 80px;
+    padding-top: 80px;
     font-family: 'Lora', serif;
     font-size: 17px;
     line-height: 1.7;
@@ -124,7 +118,6 @@
     font-size: 12px;
     color: white;
     text-align: center;
-
 } 
 
 .scroll-up {
@@ -144,11 +137,10 @@
 .foot-bar {
     padding-top: 100px;
     font-size: 16px;
-
 }  
+
 .link-1 {
-    color:white;
-    
+    color:white;   
 }
 
 .copyright {
@@ -204,7 +196,7 @@
     height: 2000px;
 }
 
-.rel {  
+.rel {    
     font-family: 'Open Sans', sans-serif;
     line-height: 1.7;
 }
@@ -219,16 +211,12 @@
     background-color: #4D606E;
     height: 675px;
     font-family:'Open Sans', serif;
-    /*text-align: center;
-    top:50px; */
 }
-.scroll-down-rel {
-    /*bottom: 80px;*/
+
+.scroll-down-rel {  
     top:350px;
     display: block;
-    /*left: 50%;*/
     height: 80px;
-   /* margin-left: -23px; */
     position: absolute;
     width: 80px;
     z-index: 200;
@@ -253,20 +241,17 @@
     font-family:'Lora',sans-serif;
 }
 
-
 #middle {
     height: 675px;
     background-color: #3FBAC2;
     font-family:'Open Sans', serif;
     line-height:1.7;
-
 }
 
 #end {
     height: 675px;
     background-color: #D3D4D8;
     font-family:'Open Sans', serif;
-
 }
 
 #four {
@@ -274,7 +259,6 @@
     background-color: #4D606E;
     font-family:'Open Sans', serif;
     line-height:1.7;
-
 }
 
 #five {
@@ -283,7 +267,6 @@
     font-family:'Open Sans', serif;
     text-align:center;
     line-height:1.7;
-
 }
 
 .rtext {
@@ -291,7 +274,6 @@
     line-height:1.7;
 }
     
-
 .full-width {
     width: 100%;
     height: 400px;
@@ -306,12 +288,6 @@
     height: 500px;
     width: 400px;
 }
-/*
-turquoise: #3FBAC2
-light gray: #D3D4D8
-navy blue: #4D606E
-super light gray: #F5F5F5
-*/
 
 /* RESOURCES */
 
@@ -320,11 +296,9 @@ super light gray: #F5F5F5
     height: 675px;
 }
 
-#sec {
-    
+#sec { 
     background-color: #4D606E;
-    height: 775px;
-    /*color: white;*/
+    height: 875px;
     font-family:'Open Sans', sans-serif;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -336,7 +310,7 @@ super light gray: #F5F5F5
 }
 
 .panel-top {
-    padding-left: 200px;
+     padding-left: 200px;
     padding-right: 200px;
     color: white;
     font-family:'Open Sans', sans-serif;
@@ -370,5 +344,3 @@ super light gray: #F5F5F5
     background-color: #4D606E;
     height: 400px;
 }
-
-/*darwin pic url: https://s-media-cache-ak0.pinimg.com/236x/3d/83/a2/3d83a22572a1a3fa9a24b73c06eacad3.jpg */
