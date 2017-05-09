@@ -5,17 +5,19 @@
     color: white;
     font-size: 15px;
     font-weight: bold;
+    position: relative;
+    display: block;
+    z-index: 2;
 }
-
-/*.navbar-header {
-    color: white;
-} */
 
 .navbar-nav {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: white;
     font-weight: bold;
+    display: block;
+    position: relative;
+    z-index: 2; 
 }
 
 .navbar a {
@@ -26,16 +28,49 @@
     color: black;
 }
 
+/*Video*/
+
+.video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;  
+    min-width: 100%;
+    min-height: 100%;
+    width: 1250px;
+    height: 1280px; 
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
+
+
 #title-text {
     color: white;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
-    top:200px;
-    height:25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    top:250px; 
+    /*height:25px;*/
+    padding-left: 200px;
+    padding-right: 200px;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    display: block;
+    size: cover;
+    z-index: 200;
+    
+}
+
+#subtitle {
+    color: white;
+    top: 350px; 
+    padding-left: 200px;
+    padding-right: 200px;
+    position: absolute;
+    display: block;
+    size: cover;
+    z-index: 200;
+
 }
 
 .scroll-down {
@@ -50,31 +85,22 @@
     color:white;
     font-size: 40pt;
 }
-    
-#intro {
-    position: relative;
-    background-color: lightgray;
-    background-image: url("../img/greenfence.jpeg");
-    height: 575px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-#title {
-    font-family: 'Open Sans', sans-serif;
-    /*font-weight:bold;*/
-    text-align: center;
-    word-wrap: break-word;
+
+#intro {
+    height: 775px;
 }
 
 #article {
-    position: absolute;
     top: 700px;
-    font-family: 'Open Sans', sans-serif;
+    height: 675px;
+    font-family: 'Lora', serif;
     font-size: 17px;
+    line-height: 1.7;
     color: black;
+    background-color: white;
 }
-
+        
 .size {
     padding-top: 50px;
     width: 400px;
@@ -82,16 +108,55 @@
 }
 
 #bottom {
-    height: 900px;
-    background-color: #F5F5F5;
+    height: 600px;
+    background-color:#3FBAC2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+    color: black;
+    padding-top: 50px;
 }
 
 #foot {
     background-color: #4D606E;
     height: 400px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+
+} 
+
+.scroll-up {
+    bottom: inherit;
+    display: block;
+    left: 50%; 
+    height: 80px;
+    margin-left: -23px; 
+    position: absolute;
+    width: 80px;
+    z-index: 200;
+    color:white;
+    font-size: 40pt;
+    text-align:center;
+}
+  
+.foot-bar {
+    padding-top: 100px;
+    font-size: 16px;
+
+}  
+.link-1 {
+    color:white;
+    
 }
 
-/* Relationship */
+.copyright {
+    padding-top: 80px;
+    text-align: center;
+}
+
+/* Relationships */
 .carousel-caption {
     top: 38%;
     transform: translateY(-50%);
@@ -108,7 +173,7 @@
 }
 
 .captions {
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .container {
@@ -130,15 +195,18 @@
 
 #info {
     background-color: #D3D4D8;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Lora', serif;
+    font-size: 18px;
     color: black;
+    line-height: 1.2;
+    height: 2000px;
 }
 
-.rel {
-    text-align: center;
+.rel {  
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
 }
 
 .space {
@@ -149,23 +217,78 @@
 
 #top {
     background-color: #4D606E;
-    height: 575px;
-    
+    height: 675px;
+    font-family:'Open Sans', serif;
+    /*text-align: center;
+    top:50px; */
+}
+.scroll-down-rel {
+    /*bottom: 80px;*/
+    top:350px;
+    display: block;
+    /*left: 50%;*/
+    height: 80px;
+   /* margin-left: -23px; */
+    position: absolute;
+    width: 80px;
+    z-index: 200;
+    color:white;
+    font-size: 40pt;
 }
 
+.heading {
+    top:150px;
+    color:white;
+    position:absolute;
+    font-size: 60px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.subheading {
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    top:250px;
+    position:absolute;
+    font-family:'Lora',sans-serif;
+}
+
+
 #middle {
-    height: 575px;
+    height: 675px;
     background-color: #3FBAC2;
+    font-family:'Open Sans', serif;
+    line-height:1.7;
+
 }
 
 #end {
-    height: 575px;
+    height: 675px;
     background-color: #D3D4D8;
+    font-family:'Open Sans', serif;
+
 }
 
 #four {
-    height: 575px;
+    height: 675px;
     background-color: #4D606E;
+    font-family:'Open Sans', serif;
+    line-height:1.7;
+
+}
+
+#five {
+    height: 400px;
+    background-color: #D3D4D8;
+    font-family:'Open Sans', serif;
+    text-align:center;
+    line-height:1.7;
+
+}
+
+.rtext {
+    font-family:'Lora',sans-serif;
+    line-height:1.7;
 }
     
 
@@ -190,21 +313,68 @@ navy blue: #4D606E
 super light gray: #F5F5F5
 */
 
-/* SOURCES */
+/* RESOURCES */
 
 #first {
-    background-color:#D3D4D8;
-    height: 575px;
+    background-color:#3FBAC2;
+    height: 675px;
 }
 
 #sec {
+    
     background-color: #4D606E;
-    height: 575px;
+    height: 775px;
+    /*color: white;*/
+    font-family:'Open Sans', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.panel-default>.panel-heading {
+    background-color: #D3D4D8;
+    font-family:'Open Sans', sans-serif;
+}
+
+
+.panel-top {
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+    font-family:'Open Sans', sans-serif;
+
+}
+
+.panel-group {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+.panel-body {
+    font-family: 'Lora', serif;
+    color: black;
+}
+
+#collapse-1 {
+    color: black;
+    background-color: #F5F5F5;
+}
+
+#v1 {
+    padding-left:200px;
+}
+
+#three {
+    background-color: #D3D4D8;
+    height: 675px;
+    color: black;
+    font-family:'Open Sans', sans-serif;
+    padding-top: 0px;
 }
 
 #last {
-    background-color: #3FBAC2;
-    height: 575px;
+    background-color: #4D606E;
+    height: 400px;
 }
 
 /*darwin pic url: https://s-media-cache-ak0.pinimg.com/236x/3d/83/a2/3d83a22572a1a3fa9a24b73c06eacad3.jpg */
